@@ -8,7 +8,7 @@ const BlockedUsersModal = ({ open, onClose, onUnblock }) => {
   const [loading, setLoading] = useState(false);
 
   // Use your backend route - CHANGE THIS TO MATCH YOUR BACKEND
-  const API_BASE_URL = 'http://localhost:5000/api/chatDashboard';
+  const API_BASE_URL = 'https://whatsapp-backend-xz82.onrender.com/api/chatDashboard';
 
   const fetchBlockedUsers = async () => {
     try {

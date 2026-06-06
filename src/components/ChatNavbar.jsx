@@ -17,7 +17,7 @@ const ChatNavbar = ({ selectedUser, onClearChat, onUserBlocked, onUserUnblocked 
   const { user } = useAuth();
 
   // Use your actual backend routes
-  const API_BASE_URL = 'http://localhost:5000/api/chatDashboard';
+  const API_BASE_URL = 'https://whatsapp-backend-xz82.onrender.com/api/chatDashboard';
 
   // Check if user is blocked
   const checkBlockStatus = async () => {

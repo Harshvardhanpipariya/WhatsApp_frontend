@@ -87,7 +87,7 @@ const Chat = () => {
       console.log('   Other User ID:', userId);
       console.log('   Current User ID:', user._id);
       
-      const response = await fetch('http://localhost:5000/api/messages/conversation/clear', {
+      const response = await fetch('https://whatsapp-backend-xz82.onrender.com/api/messages/conversation/clear', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
