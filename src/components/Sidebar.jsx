@@ -33,7 +33,7 @@ const Sidebar = ({ selectedUser, setSelectedUser }) => {
       }
 
       const res = await axios.get(
-        'https://whatsapp-backend-xz82.onrender.com/chatDashboard/allUsers',
+        'http://localhost:5000/api/chatDashboard/allUsers',
         {
           headers: {
             Authorization: `Bearer ${token}`,

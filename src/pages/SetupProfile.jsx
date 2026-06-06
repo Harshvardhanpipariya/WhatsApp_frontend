@@ -106,7 +106,7 @@ const {
       const res =
         await axios.post(
 
-          'https://whatsapp-backend-xz82.onrender.com/api/auth/complete-signup',
+          'http://localhost:5000/api/auth/complete-signup',
 
           formData
         );
@@ -183,7 +183,7 @@ const {
       const res =
         await axios.post(
 
-          'https://whatsapp-backend-xz82.onrender.com/api/auth/complete-signup',
+          'http://localhost:5000/api/auth/complete-signup',
 
           formData
         );

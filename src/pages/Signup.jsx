@@ -64,7 +64,7 @@ const Signup = () => {
 
       const res =
         await axios.post(
-          'https://whatsapp-backend-xz82.onrender.com/api/auth/send-otp',
+          'http://localhost:5000/api/auth/send-otp',
 
           formData
         )

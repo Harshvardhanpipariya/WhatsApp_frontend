@@ -123,7 +123,7 @@ const Otp = () => {
       const res =
         await axios.post(
 
-          'https://whatsapp-backend-xz82.onrender.com/api/auth/verify-otp',
+          'http://localhost:5000/api/auth/verify-otp',
 
           {
             email,
@@ -170,7 +170,7 @@ const Otp = () => {
         const res =
           await axios.post(
 
-            'https://whatsapp-backend-xz82.onrender.com/api/auth/send-otp',
+            'http://localhost:5000/api/auth/send-otp',
 
             signupData
           );

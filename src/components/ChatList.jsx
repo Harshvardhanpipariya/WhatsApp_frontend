@@ -11,7 +11,7 @@ const ChatList = ({ users, selectedUser, setSelectedUser, onBlockedUserClick }) 
   const [refreshTrigger, setRefreshTrigger] = useState(0);
 
   // Use your backend route
-  const API_BASE_URL = 'https://whatsapp-backend-xz82.onrender.com/api/chatDashboard';
+  const API_BASE_URL = 'http://localhost:5000/api/chatDashboard';
 
   // Fetch blocked users (users that current user has blocked)
   const fetchBlockedUsers = useCallback(async () => {
