@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: radial-gradient(
+    circle at top,
+    #111827,
+    #030712
+  );
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+    border-radius: 999px;
+  }
+
+
+
+* {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
